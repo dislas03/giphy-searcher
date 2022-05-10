@@ -85,7 +85,6 @@ export default App;
 
 After your App.js file is set up, create a new directory inside of the `src` directory of the project and name it `components`. Inside the components directory create a `SearchForm.js` and a `SearchResults.js` file.
 
-[View the commit](../../commit/49e9fdd)
 
 ## Create barebones SearchForm and SearchResults components
 
