@@ -112,8 +112,6 @@ export default App;
 
 Once again, make sure you don't have any errors. You should now see the titles for SearchForm and SearchResults displaying.
 
-[View the commit](../../commit/0fdf1d8)
-
 ## Add and style the SearchForm component JSX
 
 Replace the placeholder content in the SearchForm
@@ -224,8 +222,6 @@ the button and input when the browser is at least
 ```
 
 Check the result in the browser and make sure that the form with the input and button display properly before moving on to the next step.
-
-[View the commit](../../commit/35a9fc4)
 
 ## Add and style SearchResults component JSX
 
@@ -344,7 +340,6 @@ To accomplish this, we can use CSS Columns. The CSS column-count property is use
 
 Check out the results in the browser and make sure to test the design at multiple breakpoints by resizing your browser. If all is well, `git add` and `git commit` your changes to this point.
 
-[View the commit](../../commit/ecdfc76)
 
 ## Store your API key
 
@@ -432,8 +427,6 @@ display the image from `image.images.downsized_large.url` now.
 
 Check it out in the browser! You should now see 25 gifs coming from Giphy. Manually change the searchString value in the getImages function and you should get a new set of gifs. If things are working, go ahead and `git add` and `git commit` your changes.
 
-[View the commit](../../commit/cd8422b)
-
 ## Add SearchForm functionality
 
 With the API request working, we need to add the SearchForm functionality. First, let's add searchString to our state in the App. We can initialize it with a value of our choice so that images are loaded when the page loads.
@@ -490,8 +483,6 @@ function SearchForm({ handleSubmit, handleChange, searchString }) {
 ```
 
 Test it out in the browser by typing something in the search field and pressing enter or clicking the search button.
-
-[View the commit](../../commit/6bc127f)
 
 ## Improving the User Experience
 
@@ -594,8 +585,6 @@ media query for screen sizes of 1000px or more  */
 ```
 
 If you check the browser, things should be looking really good. In the next step we'll amp up the design with a logo, a matching favicon and use an icon instead of the text in the search button. In addition, we'll make sure we've considered and fixed some accessibility issues.
-
-[View the commit](../../commit/5a6cd13)
 
 ## Working with SVGs and addressing a11y
 
@@ -725,8 +714,6 @@ If we audit our site for a11y issues, we'll see that earlier when we created our
 Contrast and color use are vital to accessibility. Users with visual disabilities may not be able to perceive content on the page if there isn't enough contrast between the foreground and background colors, for example. There are many ways to check for contrast. Firefox even has an [Accessibility Inspector](https://www.youtube.com/watch?v=7mqqgIxX_NU) with a built in contrast checker, but there are also many reliable ones online, including the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/).
 
 According to the tests for our design, the `--muted` color does not provide enough contrast. It only has a contrast ratio of **2.58:1**. The target for contrast of text >= 14px (normal paragraph text is 16px). Changing the color to `--muted: #949494;` bumps up the contrast sufficiently, putting it above the target contrast ratio, giving us a score of **3.03:1**.
-
-[View the commit](../../commit/55df875)
 
 ## Bonus
 
